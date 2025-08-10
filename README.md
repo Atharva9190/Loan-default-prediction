@@ -1,3 +1,21 @@
-# Data-Analytics-Data-Mining
+# Loan Defaulter Prediction using Machine Learning
 
-Loan defaulter prediction represents a critical business need for minimizing financial risks present in lending  operations. The research aims to build machine learning detection models for loan defaulters through solutions for the class imbalance problem. The research used three resampling techniques  including Random Undersampling and SMOTE and ADASYN to handle class imbalance in defaulters and non-defaulters data from Kaggle’s public database. Our study included models: Random Forest, Logistic Regression, XGBoost and Gradient Boosting Classifier (GBC). The XGBoost model combined with ADASYNresampling under GridSearchCV delivered remarkable recall at 0.99 along with excellent precision levels which was identically to GBC. The performance of the two models was outstanding while we observed potential verfitting issue. The implementation of GridSearchCV on Logistic Regression with ADASYN generated deployable outcomes because it reached a precision value of 0.87 together with recall of 0.78 while maintaining a clear output interpretation.
+This project predicts **loan defaulters** — borrowers likely to default — using historical applicant and loan information.  
+By analysing past financial and demographic data, the model identifies **high-risk borrowers** before approval, helping lenders reduce credit losses.
+
+---
+
+## 📊 Problem Statement
+- **Objective:** Detect borrowers at **risk of default** before loan approval.
+- **Positive class:** **Defaulter** (minority class in the dataset).
+- **Business goal:** Maximise **Recall on defaulters** (catch as many risky borrowers as possible) while keeping Precision acceptable.
+- **Challenge:** The dataset is highly imbalanced (few defaulters vs many non-defaulters), which can bias models toward predicting only non-defaulters.
+
+---
+
+## 🛠 Tech Stack
+- **Language:** Python (Jupyter Notebook)
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, imbalanced-learn
+- **Tools:** Google Colab, GitHub
+
+---
