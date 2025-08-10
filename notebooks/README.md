@@ -1,6 +1,6 @@
 # Notebooks
 
-This folder contains the main Jupyter/Colab notebook for the **Loan Default Prediction** project.
+This folder contains the main Jupyter/Colab notebook for the **Loan Defaulter Prediction** project.
 
 ## 📂 Notebook Contents
 **Loan_Default_Prediction.ipynb**
