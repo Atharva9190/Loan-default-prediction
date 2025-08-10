@@ -1,6 +1,6 @@
 # Loan Defaulter Prediction using Machine Learning
 
-This project predicts **loan defaulters** — borrowers likely to default — using historical applicant and loan information.  
+This project predicts **loan defaulters** borrowers likely to default using historical applicant and loan information.  
 By analysing past financial and demographic data, the model identifies **high-risk borrowers** before approval, helping lenders reduce credit losses.
 
 ---
